@@ -1,0 +1,56 @@
+{
+    "Car_Survey": {
+       "Vehicle_Experience": {
+          "Q1_Vehicle_Usage": {
+             "Description": "How often do you use your car?",
+             "Answers": [
+                "Daily",
+                "Weekly",
+                "Monthly",
+                "Rarely"
+             ]
+          },
+          "Q2_Comfort_Level": {
+             "Description": "How would you rate the overall comfort of your car?",
+             "Answers": [
+                "Very Comfortable",
+                "Comfortable",
+                "Neutral",
+                "Uncomfortable",
+                "Very Uncomfortable"
+             ]
+          },
+          "Q3_Fuel_Efficiency": {
+             "Description": "How satisfied are you with the fuel efficiency of your car?",
+             "Answers": [
+                "Very Satisfied",
+                "Satisfied",
+                "Neutral",
+                "Unsatisfied",
+                "Very Unsatisfied"
+             ]
+          },
+          "Q4_Infotainment_System": {
+             "Description": "How would you rate the car's infotainment system?",
+             "Answers": [
+                "Excellent",
+                "Good",
+                "Average",
+                "Below Average",
+                "Poor"
+             ]
+          },
+          "Q5_Overall_Satisfaction": {
+             "Description": "Overall, how satisfied are you with your vehicle?",
+             "Answers": [
+                "Very Satisfied",
+                "Satisfied",
+                "Neutral",
+                "Dissatisfied",
+                "Very Dissatisfied"
+             ]
+          }
+       }
+    }
+ }
+ 
