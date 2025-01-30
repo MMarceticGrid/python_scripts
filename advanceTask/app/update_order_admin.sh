@@ -1,0 +1,1 @@
+./client_side.py --role admin update-order-status 1 ready_to_be_delivered hardcoded_admin_token
