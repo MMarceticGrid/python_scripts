@@ -20,4 +20,5 @@ with open(logfile, 'r') as f:
             agents[UserAgent] = 1
 
 
-print(f"{agents}")
+for agent in agents:
+    print(f"{agent}")
