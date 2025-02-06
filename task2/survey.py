@@ -14,8 +14,8 @@ from googleapiclient.errors import HttpError
 
 access_token = os.getenv("SURVEY_MONKEY_AT")
 parse = argparse.ArgumentParser()
-parse.add_argument("file", help="Filename of json file that contains survey content")
-parse.add_argument("emails", help="File with list of emails")
+parse.add_argument("--file", help="Filename of json file that contains survey content")
+parse.add_argument("--emails", help="File with list of emails")
 args = parse.parse_args()
 
 SCOPES = ["https://www.googleapis.com/auth/gmail.send"]
