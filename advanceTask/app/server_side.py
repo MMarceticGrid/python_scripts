@@ -1,6 +1,6 @@
 #!/Users/mmarcetic/Documents/python3_course/practical_python/advanceTask/env/bin/python3
 
-from flask import Flask, request, jsonify, abort
+from flask import Flask, request, jsonify
 from models.pizza import Pizza
 from models.user import User
 from models.order import Order
@@ -48,8 +48,6 @@ def get_user_by_id(user_id):
 def list_menu():
     menu = [pizza.__dict__ for pizza in pizzas_db]
     return jsonify(menu)
-
-# Endpoint to create an order (POST /order)
 @app.route('/order', methods=['POST'])
 def create_order():
     data = request.get_json()
